@@ -1,0 +1,44 @@
+#pdfContainer{
+    background-color: white;
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    padding: 20px;
+    transform: translate(48%,12%);
+    box-shadow: 0 5px 30px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+#pdfContainerClose{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border: none;
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+    border-radius: 50px;
+    margin-left: 98%;
+    margin-top: -3%;
+    cursor: pointer;
+}
+
+#pdfContainerUpload{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    background-color: white;
+    color: black;
+    border: none;
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+    border-radius: 50px;
+    margin-left: -10%;
+    margin-top: -1%;
+    cursor: pointer;
+}
+
+#fileInp{
+    display: none;
+}

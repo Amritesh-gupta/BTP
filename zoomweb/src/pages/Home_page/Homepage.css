@@ -1,0 +1,232 @@
+.bg {
+    /* background-image: url("https://admissions.lnmiit.ac.in/assets/img/gallery/big/360%20VIEW%20OF%20LNMIIT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 100vh;
+}
+
+#card_grid{
+  /* border: solid 5px red; */
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  margin-top: 2%;
+  margin-left: 5%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 50px;
+  place-items: center;
+}
+
+#card1.active{
+  transform: translate3d(10px, 0px, 0px) scale(1.16913, 1.24706); 
+  transform-origin: 70% 30%;
+}
+
+#card2.active{
+  transform: translate3d(10px, 0px, 0px) scale(1.16913, 1.24706); 
+  transform-origin: 70% 30%;
+}
+
+#card3.active{
+  transform: translate3d(10px, 0px, 0px) scale(1.16913, 1.24706); 
+  transform-origin: 70% 30%;
+}
+
+#card4.active{
+  transform: translate3d(10px, 0px, 0px) scale(1.16913, 1.24706); 
+  transform-origin: 70% 30%;
+}
+
+#card5.active{
+  transform: translate3d(10px, 0px, 0px) scale(1.16913, 1.24706); 
+  transform-origin: 70% 30%;
+}
+
+
+#card1{
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  background-color: rgb(0, 7, 60);
+  color: white;
+  border: solid 2px rgb(0, 7, 60);
+}
+
+#card2{
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  background-color: rgb(0, 7, 60);
+  color: white;
+  border: solid 2px rgb(0, 7, 60);
+}
+
+#card3{
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  background-color: rgb(0, 7, 60);
+  color: white;
+  border: solid 2px rgb(0, 7, 60);
+}
+
+#card4{
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  background-color: rgb(0, 7, 60);
+  color: white;
+  border: solid 2px rgb(0, 7, 60);
+}
+
+#card5{
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  background-color: rgb(0, 7, 60);
+  color: white;
+  border: solid 2px rgb(0, 7, 60);
+}
+
+#room1_btn{
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  border: solid 2px white;
+  color: (0, 7, 60);
+  border-radius: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+}
+
+.title {
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+.card_upper{
+  height: 75%;
+}
+
+.card_upper > img{
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.card_lower{
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+}
+
+
+/* Sidebar */
+
+a{
+  text-decoration: none;
+}
+.sidebar {
+  background: rgb(0, 7, 60);
+  color: white;
+  height: 100vh;
+  width: auto;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top:15px;
+  padding-left: 5px;
+  margin-bottom: 50px;
+}
+
+.logo {
+  font-size: 18px;
+  line-height: 0;
+}
+.icon{
+  height: 5px;
+  width: 30px;
+  transform: scale(2.5);
+}
+.bars {
+  width: 30px;
+  transform: scale(2.5);
+ 
+}
+.hide {
+  display: none;
+}
+
+
+
+.routes {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 95%;
+  
+}
+.link {
+  display: flex;
+  color: white;
+  margin-bottom: 20px;
+  gap: 10px;
+  height: 40px;
+  /* padding-top:15px; */
+  padding-left: 5px;
+  border-right: 4px solid transparent;
+  align-items: center;
+
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.link:hover{
+  border-right: 4px solid white;
+  background: rgb(45, 51, 89);
+  /* transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045); */
+}
+
+.link_text {
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.menu {
+  display: flex;
+  color: white;
+
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  justify-content: space-between;
+}
+.menu_item {
+  display: flex;
+  gap: 10px;
+}
+.menu_container {
+  display: flex;
+  flex-direction: column;
+}
+.menu_container .link {
+  padding-left: 20px;
+  border-bottom: #fff 0.5px solid;
+}
+

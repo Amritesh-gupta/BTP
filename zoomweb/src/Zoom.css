@@ -1,0 +1,19 @@
+#main-video{
+    background-color: rgb(253, 253, 253);
+}
+
+.video-avatar__avatar{
+    width: inherit !important ;
+    height: 200px !important;
+    background-color: rgb(68, 0, 255);
+}
+
+.gallery-video-container__video-frame.react-draggable{
+    background-color: aqua !important;
+    position: absolute;
+    transform: translate(0px,0px) !important;
+    top: 20px;
+    right: 0px;
+    width: 300px !important;
+    height: 100% !important;
+}

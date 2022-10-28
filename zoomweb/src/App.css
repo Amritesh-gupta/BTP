@@ -1,0 +1,13 @@
+*{
+    width: 100%;
+}
+
+html,body{
+    overflow: unset !important;
+    font-size: 62.5% !important;
+
+}
+
+#zmmtg-root {
+    display: none;
+}

@@ -1,0 +1,58 @@
+#contactContainer{
+    width: 100%;
+    height: 90.6vh;
+    display: flex;
+}
+
+#contactFirst{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgb(0, 7, 60);
+}
+
+#contactSecond{
+    width: 50%;
+}
+
+#queryForm{
+    width: 100%;
+    height: 90%;
+}
+
+#contactSecond  h1{
+    font-family: "BasisGrotesquePro", "Arial", "Sans-Serif";
+    height: auto;
+    width: auto;
+    font-weight: 500;
+    font-size :xx-large;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+#queryInp{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 60%;
+    height: 40%;
+    resize: both;
+    padding: 10px;
+    font-size: large;
+}
+
+#queryBtn{
+    width: 12%;
+    height: 8%;
+    margin-top: 35px;
+    margin-left: 20px;
+    background-color: rgb(0, 7, 60);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

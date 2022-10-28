@@ -1,0 +1,170 @@
+html{
+    font-size: 62.5%;
+}
+
+
+#login{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    height: auto;
+    width: 100%;
+}
+
+#containers{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#container1{
+    width: 50%;
+}
+
+#row1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#row1 > h1{
+    width: auto;
+    height: auto;
+    font-size: 5rem;
+    padding: 0.5em;
+    color: rgb(255, 145, 1);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-shadow: 0px 0px 0 rgb(247, 154, 0), 1px 1px 0 rgb(240, 147, 0),
+      2px 2px 0 rgb(232, 139, 0), 3px 3px 0 rgb(224, 131, 0),
+      4px 4px 0 rgb(216, 123, 0), 5px 5px 0 rgb(209, 116, 0),
+      8px 8px 1px rgb(255, 255, 255);
+    
+    /* background-color:rgb(s0, 255, 115); */
+}
+
+#row2{
+    height: 70%;
+    width: auto;
+}
+
+#container2{
+    width: 50%;
+}
+
+#upper_row{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#upper_row > h1{
+    height: auto;
+    width: auto;
+    margin-top: 6rem;
+    font-size: 3rem;
+    color: rgb(255, 145, 1);
+    /* color: rgb(97, 61, 255); */
+
+}
+
+
+#login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+#email_error{
+    color: red;
+    width: 75%;
+    font-size: 13px;
+}
+
+#pass_error{
+    color: red;
+    width: 75%;
+    font-size: 13px;
+}
+
+#email_inp{
+    width: 75%;
+    height: 40px;
+    padding-left: 1em;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+
+
+#pass_inp{
+    width: 75%;
+    margin-top: 1em;
+    height: 40px;
+    padding-left: 1em;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+
+#signup_div{
+    height: 5rem;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+}
+
+#signup_div > h1{
+    height: auto;
+    width: auto;
+    margin-top: 1em;
+    color: rgb(255, 145, 1);
+}
+
+#signup_div > h1:nth-child(2){
+    margin-left: 0.3em;
+    cursor: pointer;
+    color: blue;
+}
+
+#submit_div{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    /* margin-right: 5em; */
+}
+
+#submit_btn{
+    width: 75px;
+    height: 5rem;
+    margin-top: 5em;
+    background-color: rgb(42, 46, 255);
+    color: white;
+    border-radius: 25px;
+}
+
+
+@media only screen and (max-width: 950px) {
+    html{
+        font-size: 35% !important;
+    }
+    #containers{
+      flex-direction: column;
+    }
+    #container1{
+        width: 100%;
+    }
+    #container2{
+        width: 100%;
+    }
+}
+
+/* @media only screen and (max-width: 700px) { */

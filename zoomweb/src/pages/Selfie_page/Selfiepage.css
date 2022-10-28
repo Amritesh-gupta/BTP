@@ -1,0 +1,28 @@
+#selfie_container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cache.careers360.mobi/media/colleges/reviews/IMG-20160807-WA0005.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#selfie_grid_container {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+#grid {
+    display: grid;
+    width: 55%;
+    grid-template-columns: repeat(60, 3%);
+    grid-template-rows: repeat(20, auto);
+}
+
+#grid div {
+
+    width: 100%;
+    height: 15px;
+}
